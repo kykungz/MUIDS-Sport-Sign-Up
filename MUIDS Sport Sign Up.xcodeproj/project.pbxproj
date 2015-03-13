@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		981ED8741AB2A96100E3C71A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ED8731AB2A96100E3C71A /* AppDelegate.swift */; };
+		981ED8761AB2A96100E3C71A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ED8751AB2A96100E3C71A /* ViewController.swift */; };
+		981ED8791AB2A96100E3C71A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981ED8771AB2A96100E3C71A /* Main.storyboard */; };
+		981ED87B1AB2A96100E3C71A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981ED87A1AB2A96100E3C71A /* Images.xcassets */; };
+		981ED87E1AB2A96100E3C71A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 981ED87C1AB2A96100E3C71A /* LaunchScreen.xib */; };
+		981ED88A1AB2A96100E3C71A /* MUIDS_Sport_Sign_UpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ED8891AB2A96100E3C71A /* MUIDS_Sport_Sign_UpTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		981ED8841AB2A96100E3C71A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 981ED8661AB2A96100E3C71A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 981ED86D1AB2A96100E3C71A;
+			remoteInfo = "MUIDS Sport Sign Up";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		981ED86E1AB2A96100E3C71A /* MUIDS Sport Sign Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MUIDS Sport Sign Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		981ED8721AB2A96100E3C71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981ED8731AB2A96100E3C71A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		981ED8751AB2A96100E3C71A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		981ED8781AB2A96100E3C71A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		981ED87A1AB2A96100E3C71A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		981ED87D1AB2A96100E3C71A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		981ED8831AB2A96100E3C71A /* MUIDS Sport Sign UpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MUIDS Sport Sign UpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		981ED8881AB2A96100E3C71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981ED8891AB2A96100E3C71A /* MUIDS_Sport_Sign_UpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUIDS_Sport_Sign_UpTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		981ED86B1AB2A96100E3C71A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981ED8801AB2A96100E3C71A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		981ED8651AB2A96100E3C71A = {
+			isa = PBXGroup;
+			children = (
+				981ED8701AB2A96100E3C71A /* MUIDS Sport Sign Up */,
+				981ED8861AB2A96100E3C71A /* MUIDS Sport Sign UpTests */,
+				981ED86F1AB2A96100E3C71A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		981ED86F1AB2A96100E3C71A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				981ED86E1AB2A96100E3C71A /* MUIDS Sport Sign Up.app */,
+				981ED8831AB2A96100E3C71A /* MUIDS Sport Sign UpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		981ED8701AB2A96100E3C71A /* MUIDS Sport Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				981ED8731AB2A96100E3C71A /* AppDelegate.swift */,
+				981ED8751AB2A96100E3C71A /* ViewController.swift */,
+				981ED8771AB2A96100E3C71A /* Main.storyboard */,
+				981ED87A1AB2A96100E3C71A /* Images.xcassets */,
+				981ED87C1AB2A96100E3C71A /* LaunchScreen.xib */,
+				981ED8711AB2A96100E3C71A /* Supporting Files */,
+			);
+			path = "MUIDS Sport Sign Up";
+			sourceTree = "<group>";
+		};
+		981ED8711AB2A96100E3C71A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				981ED8721AB2A96100E3C71A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		981ED8861AB2A96100E3C71A /* MUIDS Sport Sign UpTests */ = {
+			isa = PBXGroup;
+			children = (
+				981ED8891AB2A96100E3C71A /* MUIDS_Sport_Sign_UpTests.swift */,
+				981ED8871AB2A96100E3C71A /* Supporting Files */,
+			);
+			path = "MUIDS Sport Sign UpTests";
+			sourceTree = "<group>";
+		};
+		981ED8871AB2A96100E3C71A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				981ED8881AB2A96100E3C71A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		981ED86D1AB2A96100E3C71A /* MUIDS Sport Sign Up */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981ED88D1AB2A96100E3C71A /* Build configuration list for PBXNativeTarget "MUIDS Sport Sign Up" */;
+			buildPhases = (
+				981ED86A1AB2A96100E3C71A /* Sources */,
+				981ED86B1AB2A96100E3C71A /* Frameworks */,
+				981ED86C1AB2A96100E3C71A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MUIDS Sport Sign Up";
+			productName = "MUIDS Sport Sign Up";
+			productReference = 981ED86E1AB2A96100E3C71A /* MUIDS Sport Sign Up.app */;
+			productType = "com.apple.product-type.application";
+		};
+		981ED8821AB2A96100E3C71A /* MUIDS Sport Sign UpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981ED8901AB2A96100E3C71A /* Build configuration list for PBXNativeTarget "MUIDS Sport Sign UpTests" */;
+			buildPhases = (
+				981ED87F1AB2A96100E3C71A /* Sources */,
+				981ED8801AB2A96100E3C71A /* Frameworks */,
+				981ED8811AB2A96100E3C71A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				981ED8851AB2A96100E3C71A /* PBXTargetDependency */,
+			);
+			name = "MUIDS Sport Sign UpTests";
+			productName = "MUIDS Sport Sign UpTests";
+			productReference = 981ED8831AB2A96100E3C71A /* MUIDS Sport Sign UpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		981ED8661AB2A96100E3C71A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Kkz;
+				TargetAttributes = {
+					981ED86D1AB2A96100E3C71A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					981ED8821AB2A96100E3C71A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 981ED86D1AB2A96100E3C71A;
+					};
+				};
+			};
+			buildConfigurationList = 981ED8691AB2A96100E3C71A /* Build configuration list for PBXProject "MUIDS Sport Sign Up" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 981ED8651AB2A96100E3C71A;
+			productRefGroup = 981ED86F1AB2A96100E3C71A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				981ED86D1AB2A96100E3C71A /* MUIDS Sport Sign Up */,
+				981ED8821AB2A96100E3C71A /* MUIDS Sport Sign UpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		981ED86C1AB2A96100E3C71A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981ED8791AB2A96100E3C71A /* Main.storyboard in Resources */,
+				981ED87E1AB2A96100E3C71A /* LaunchScreen.xib in Resources */,
+				981ED87B1AB2A96100E3C71A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981ED8811AB2A96100E3C71A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		981ED86A1AB2A96100E3C71A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981ED8761AB2A96100E3C71A /* ViewController.swift in Sources */,
+				981ED8741AB2A96100E3C71A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981ED87F1AB2A96100E3C71A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981ED88A1AB2A96100E3C71A /* MUIDS_Sport_Sign_UpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		981ED8851AB2A96100E3C71A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 981ED86D1AB2A96100E3C71A /* MUIDS Sport Sign Up */;
+			targetProxy = 981ED8841AB2A96100E3C71A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		981ED8771AB2A96100E3C71A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				981ED8781AB2A96100E3C71A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		981ED87C1AB2A96100E3C71A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				981ED87D1AB2A96100E3C71A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		981ED88B1AB2A96100E3C71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		981ED88C1AB2A96100E3C71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		981ED88E1AB2A96100E3C71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MUIDS Sport Sign Up/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		981ED88F1AB2A96100E3C71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MUIDS Sport Sign Up/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		981ED8911AB2A96100E3C71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MUIDS Sport Sign UpTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MUIDS Sport Sign Up.app/MUIDS Sport Sign Up";
+			};
+			name = Debug;
+		};
+		981ED8921AB2A96100E3C71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MUIDS Sport Sign UpTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MUIDS Sport Sign Up.app/MUIDS Sport Sign Up";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		981ED8691AB2A96100E3C71A /* Build configuration list for PBXProject "MUIDS Sport Sign Up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981ED88B1AB2A96100E3C71A /* Debug */,
+				981ED88C1AB2A96100E3C71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981ED88D1AB2A96100E3C71A /* Build configuration list for PBXNativeTarget "MUIDS Sport Sign Up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981ED88E1AB2A96100E3C71A /* Debug */,
+				981ED88F1AB2A96100E3C71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		981ED8901AB2A96100E3C71A /* Build configuration list for PBXNativeTarget "MUIDS Sport Sign UpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981ED8911AB2A96100E3C71A /* Debug */,
+				981ED8921AB2A96100E3C71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 981ED8661AB2A96100E3C71A /* Project object */;
+}
