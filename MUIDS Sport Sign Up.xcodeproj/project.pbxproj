@@ -13,6 +13,7 @@
 		981ED87B1AB2A96100E3C71A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981ED87A1AB2A96100E3C71A /* Images.xcassets */; };
 		981ED87E1AB2A96100E3C71A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 981ED87C1AB2A96100E3C71A /* LaunchScreen.xib */; };
 		981ED88A1AB2A96100E3C71A /* MUIDS_Sport_Sign_UpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ED8891AB2A96100E3C71A /* MUIDS_Sport_Sign_UpTests.swift */; };
+		9855C2051AC3F9F600429F5F /* footer-wave.png in Resources */ = {isa = PBXBuildFile; fileRef = 9855C2041AC3F9F600429F5F /* footer-wave.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		981ED8831AB2A96100E3C71A /* MUIDS Sport Sign UpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MUIDS Sport Sign UpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		981ED8881AB2A96100E3C71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		981ED8891AB2A96100E3C71A /* MUIDS_Sport_Sign_UpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUIDS_Sport_Sign_UpTests.swift; sourceTree = "<group>"; };
+		9855C2041AC3F9F600429F5F /* footer-wave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "footer-wave.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		981ED8711AB2A96100E3C71A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9855C2041AC3F9F600429F5F /* footer-wave.png */,
 				981ED8721AB2A96100E3C71A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				981ED8791AB2A96100E3C71A /* Main.storyboard in Resources */,
+				9855C2051AC3F9F600429F5F /* footer-wave.png in Resources */,
 				981ED87E1AB2A96100E3C71A /* LaunchScreen.xib in Resources */,
 				981ED87B1AB2A96100E3C71A /* Images.xcassets in Resources */,
 			);
@@ -405,6 +409,7 @@
 				981ED88F1AB2A96100E3C71A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		981ED8901AB2A96100E3C71A /* Build configuration list for PBXNativeTarget "MUIDS Sport Sign UpTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				981ED8921AB2A96100E3C71A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
