@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		981893CF1AC518DE008F71FE /* Basketball-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 981893CB1AC518DE008F71FE /* Basketball-512.png */; };
+		981893D01AC518DE008F71FE /* 044537-glossy-black-icon-sports-hobbies-people-man-runner.png in Resources */ = {isa = PBXBuildFile; fileRef = 981893CC1AC518DE008F71FE /* 044537-glossy-black-icon-sports-hobbies-people-man-runner.png */; };
+		981893D11AC518DE008F71FE /* badminton.png in Resources */ = {isa = PBXBuildFile; fileRef = 981893CD1AC518DE008F71FE /* badminton.png */; };
+		981893D21AC518DE008F71FE /* Soccer-Ball-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 981893CE1AC518DE008F71FE /* Soccer-Ball-icon.png */; };
 		981ED8741AB2A96100E3C71A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ED8731AB2A96100E3C71A /* AppDelegate.swift */; };
 		981ED8761AB2A96100E3C71A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ED8751AB2A96100E3C71A /* ViewController.swift */; };
 		981ED8791AB2A96100E3C71A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981ED8771AB2A96100E3C71A /* Main.storyboard */; };
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		981893CB1AC518DE008F71FE /* Basketball-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Basketball-512.png"; sourceTree = "<group>"; };
+		981893CC1AC518DE008F71FE /* 044537-glossy-black-icon-sports-hobbies-people-man-runner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "044537-glossy-black-icon-sports-hobbies-people-man-runner.png"; sourceTree = "<group>"; };
+		981893CD1AC518DE008F71FE /* badminton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badminton.png; sourceTree = "<group>"; };
+		981893CE1AC518DE008F71FE /* Soccer-Ball-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Soccer-Ball-icon.png"; sourceTree = "<group>"; };
 		981ED86E1AB2A96100E3C71A /* MUIDS Sport Sign Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MUIDS Sport Sign Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		981ED8721AB2A96100E3C71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		981ED8731AB2A96100E3C71A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +100,10 @@
 		981ED8711AB2A96100E3C71A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				981893CB1AC518DE008F71FE /* Basketball-512.png */,
+				981893CC1AC518DE008F71FE /* 044537-glossy-black-icon-sports-hobbies-people-man-runner.png */,
+				981893CD1AC518DE008F71FE /* badminton.png */,
+				981893CE1AC518DE008F71FE /* Soccer-Ball-icon.png */,
 				9855C2041AC3F9F600429F5F /* footer-wave.png */,
 				981ED8721AB2A96100E3C71A /* Info.plist */,
 			);
@@ -197,6 +209,10 @@
 			files = (
 				981ED8791AB2A96100E3C71A /* Main.storyboard in Resources */,
 				9855C2051AC3F9F600429F5F /* footer-wave.png in Resources */,
+				981893D01AC518DE008F71FE /* 044537-glossy-black-icon-sports-hobbies-people-man-runner.png in Resources */,
+				981893CF1AC518DE008F71FE /* Basketball-512.png in Resources */,
+				981893D21AC518DE008F71FE /* Soccer-Ball-icon.png in Resources */,
+				981893D11AC518DE008F71FE /* badminton.png in Resources */,
 				981ED87E1AB2A96100E3C71A /* LaunchScreen.xib in Resources */,
 				981ED87B1AB2A96100E3C71A /* Images.xcassets in Resources */,
 			);
